@@ -1,0 +1,306 @@
+*{
+    padding:0; margin: 0; box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
+}
+header{
+    width: 100%;
+    height: 90vh;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('https://www.globalfocusmagazine.com/wp-content/uploads/2020/02/Engaging_with_technology-scaled.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+    position: fixed;
+    top: 0;
+}
+
+.logo{
+    font-family: sans-serif;
+    font-size: 2.5em;
+}
+.logo span{
+    color: rgb(105, 105, 231);
+}
+
+.menu a{
+    text-decoration: none;
+    color:black;
+    padding: 10px 20px;
+    font-family: sans-serif;
+    
+}
+/* .menu a:first-child{
+    color: rgb(105, 105, 231);
+} */
+.menu a:hover{
+    color:  rgb(105, 105, 231);
+}
+.icon i{
+    font-size: 30px;
+}
+.icon i:hover{
+    color: rgb(105, 105, 231);
+}
+.icon a{
+    text-decoration: none;
+    background: rgb(105, 105, 231);
+    color: white;
+    padding: 10px 20px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.h-text{
+    color: white;
+    max-width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+#abc{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.h-text h1{
+    font-family: sans-serif;
+    font-size: 3em;
+    line-height: 1.5em;
+}
+
+
+
+
+
+/* *{
+    padding:0; margin: 0; box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
+}
+header{
+    width: 100%;
+    height: 90vh;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('https://www.globalfocusmagazine.com/wp-content/uploads/2020/02/Engaging_with_technology-scaled.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+    position: fixed;
+    top: 0;
+}
+.logo{
+    font-family: sans-serif;
+    font-size: 2.5em;
+}
+.logo span{
+    color: blue;
+}
+
+.menu a{
+    text-decoration: none;
+    color:black;
+    padding: 10px 20px;
+    font-family: sans-serif;
+    
+}
+.menu a:first-child{
+    color: rgb(105, 105, 231);
+}
+.menu a:hover{
+    color:  rgb(105, 105, 231);
+}
+.icon i{
+    font-size: 30px;
+}
+.icon i:hover{
+    color: rgb(105, 105, 231);
+}
+.icon a{
+    text-decoration: none;
+    background: rgb(105, 105, 231);
+    color: white;
+    padding: 10px 20px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.h-text{
+    color: white;
+    max-width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+#abc{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.h-text h1{
+    font-family: sans-serif;
+    font-size: 3em;
+    line-height: 1.5em;
+} */
+.member{
+    width: 100%;
+    padding: 20px 100px;
+    font-family: sans-serif;
+}
+.member-info{
+    text-align: center;
+    color: white;
+}
+.member-info h1{
+    font-size: 2.5em;
+}
+.member-info h1 span{
+    color: rgb(105, 105, 231);
+}
+.member-card{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    width: 50%;
+    margin: auto;
+}
+.member p{
+    margin: 20px 0px;
+    line-height: 2em;
+}
+.member-card h2{
+    margin: 20px 0px;
+}
+.m-images{
+    width: 100%;
+    display: flex;
+    /* margin: 20px 0px; */
+    margin-left: 15%;
+    margin-right: 10%;
+    padding: 0%;
+    overflow: hidden;
+}
+.m-images img{
+    width: 175px;
+    height: 200px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.m-images img:hover{
+    transform: scale(1.5);
+}
+footer{
+    width: 100%;
+    height: 100vh;
+    background: #262626;
+    padding: 50px 100px;
+}
+.news{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border: 1px solid white;
+    color: white;
+
+
+}
+.news h2{
+    font-size: 2em;
+    font-family: sans-serif;
+
+}
+.news p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.f-contact{
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3em;
+}
+.helpabout{
+    font-size: 23px;
+}
+
+.bg_video{
+    width: 100%;
+    margin: 0%;
+    height: 100vh;
+    object-fit: cover;
+    padding: 0%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* images styling */
+.container {
+    position: relative;
+    width: 50%;
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    margin: 10px;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    box-shadow: 2px 1px 2px 1px rgb(218, 137, 250);
+   
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  /* .m-images img:hover .image {
+    opacity: 0.3;
+  } */
+  
+  /* .image:hover .middle {
+    opacity: 0.5;
+  } */
+  
+  /* .text {
+    color:  rgb(105, 105, 231);
+    font-weight: bold;
+    font-size: x-large;
+  } */
